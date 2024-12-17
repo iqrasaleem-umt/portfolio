@@ -1,7 +1,9 @@
+// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import SideBar from "@/components/sidebar";
 
 
 const geistSans = Geist({
@@ -29,8 +31,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         <Header />
-        {children}
+        {/* Layout Structure */}
+        <div className="flex">
+          {/* Sidebar */}
+          <SideBar />
+          
+          {/* Main Content Area */}
+          <div className="flex-1  ml-60">
+            <Header />
+            <main className="">{children}</main>
+          </div>
+        </div>
       </body>
     </html>
   );

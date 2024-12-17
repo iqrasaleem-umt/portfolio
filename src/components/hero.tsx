@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div>
-         <div className="relative w-full h-[550px]">
+         <div className="relative w-full h-[560px]">
         {/* Background Image */}
         <Image
           className="object-cover"
