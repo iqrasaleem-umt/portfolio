@@ -41,7 +41,7 @@ export default function SideBar() {
             height={24}
             alt="image"
           />
-          <Link className="text-gray-500 hover:text-white" href={"/about"}>
+          <Link className="text-gray-500 hover:text-white" href={""}>
             About
           </Link>
         </div>
@@ -53,7 +53,7 @@ export default function SideBar() {
             height={24}
             alt="image"
           />
-          <Link className="text-gray-500 hover:text-white" href={"/resume"}>
+          <Link className="text-gray-500 hover:text-white" href={""}>
             Resume
           </Link>
         </div>
@@ -65,7 +65,7 @@ export default function SideBar() {
             height={24}
             alt="image"
           />
-          <Link className="text-gray-500 hover:text-white" href={"/portfolio"}>
+          <Link className="text-gray-500 hover:text-white" href={""}>
             Portfolio
           </Link>
         </div>
@@ -77,7 +77,7 @@ export default function SideBar() {
             height={24}
             alt="image"
           />
-          <Link className="text-gray-500 hover:text-white" href={"/contact"}>
+          <Link className="text-gray-500 hover:text-white" href={""}>
             Contact
           </Link>
         </div>

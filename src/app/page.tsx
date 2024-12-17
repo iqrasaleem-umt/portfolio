@@ -2,6 +2,8 @@ import HeroSection from "@/components/hero";
 
 import About from "./views/about";
 import Sidebar from "@/components/sidebar";
+import Skills from "./views/skills";
+import Resume from "./views/resume";
 
 
 
@@ -19,6 +21,8 @@ export default function Home() {
     </div>
   </div>
     <About/>
+    <Skills/>
+    <Resume/>
     </div>
    
       
