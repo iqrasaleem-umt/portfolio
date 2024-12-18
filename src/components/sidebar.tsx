@@ -21,7 +21,7 @@ export default function SideBar() {
       </p>
       <div className="flex flex-col mt-2 text-xl">
         {/* Links with images */}
-        <div className="flex items-center gap-6 mt-4">
+        <div className="flex items-center gap-8 mt-4">
           <Image
             className="hover:grayscale"
             src="/home.png"
@@ -33,7 +33,7 @@ export default function SideBar() {
             Home
           </Link>
         </div>
-        <div className="flex items-center gap-6 mt-4">
+        <div className="flex items-center gap-8 mt-4">
           <Image
             className="hover:grayscale"
             src="/personicon.png"
@@ -45,7 +45,7 @@ export default function SideBar() {
             About
           </Link>
         </div>
-        <div className="flex items-center gap-6 mt-4">
+        <div className="flex items-center gap-8 mt-4">
           <Image
             className="hover:grayscale"
             src="/resume.png"
@@ -57,7 +57,7 @@ export default function SideBar() {
             Resume
           </Link>
         </div>
-        <div className="flex items-center gap-6 mt-4">
+        <div className="flex items-center gap-8 mt-4">
           <Image
             className="hover:grayscale"
             src="/portfolio.png"
@@ -66,10 +66,10 @@ export default function SideBar() {
             alt="image"
           />
           <Link className="text-gray-500 hover:text-white" href={""}>
-            Portfolio
+            Projects
           </Link>
         </div>
-        <div className="flex items-center gap-6 mt-4">
+        <div className="flex items-center gap-8 mt-4">
           <Image
             className="hover:grayscale"
             src="/contact.png"

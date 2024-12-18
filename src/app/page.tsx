@@ -4,6 +4,8 @@ import About from "./views/about";
 import Sidebar from "@/components/sidebar";
 import Skills from "./views/skills";
 import Resume from "./views/resume";
+import Projects from "./views/projects";
+import Contact from "./views/contact";
 
 
 
@@ -23,6 +25,8 @@ export default function Home() {
     <About/>
     <Skills/>
     <Resume/>
+    <Projects/>
+    <Contact/>
     </div>
    
       
