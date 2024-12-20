@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 export default function Header() {
   return (
-    <div className="bg-green-800 w-full h-8 flex items-center justify-between px-4 ">
+    // Add 'hidden lg:flex' to hide the header on mobile/tablet and show it only on laptops/desktops
+    <div className="bg-green-800 w-full h-8 hidden lg:flex items-center justify-between px-4">
       {/* Left Section: IQRASALEEM MADE */}
       <div className="flex items-center space-x-2">
         <p className="text-white">IQRASALEEM</p>

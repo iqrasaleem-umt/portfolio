@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function SideBar() {
   return (
-    <div className="w-60 h-screen bg-black px-10 flex flex-col items-center justify-start border-r-8 border-gray-500  fixed top-0 left-0 overflow-y-auto">
-      {/* Image with rounded-full */}
+    <div className="hidden sm:flex sm:w-60 sm:h-screen sm:bg-black sm:px-10 sm:flex-col sm:items-center sm:justify-start sm:border-r-8 sm:border-gray-500 fixed top-0 left-0 sm:overflow-y-auto z-20">
+      {/* Sidebar Content */}
       <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-gray-500 mt-6">
         <Image
           className="object-cover"
@@ -33,6 +33,7 @@ export default function SideBar() {
             Home
           </Link>
         </div>
+        {/* More links... */}
         <div className="flex items-center gap-8 mt-4">
           <Image
             className="hover:grayscale"
@@ -85,4 +86,3 @@ export default function SideBar() {
     </div>
   );
 }
-

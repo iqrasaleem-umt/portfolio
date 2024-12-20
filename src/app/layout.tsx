@@ -1,11 +1,9 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import SideBar from "@/components/sidebar";
 import Header from "@/components/header";
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,13 +32,21 @@ export default function RootLayout({
       >
         {/* Layout Structure */}
         <div className="flex">
-          {/* Sidebar */}
-          <SideBar />
-          
+          {/* Sidebar - hidden on small screens (sm) */}
+          <div className="hidden sm:flex sm:w-60 sm:h-screen sm:bg-black sm:px-10 sm:flex-col sm:items-center sm:justify-start sm:border-r-8 sm:border-gray-500 fixed top-0 left-0 sm:overflow-y-auto">
+            <SideBar />
+          </div>
+
           {/* Main Content Area */}
-          <div className="flex-1  ml-60">
-          <Header />
-            <main className="">{children}</main>
+          <div
+            className={`flex-1 transition-all duration-300 ${
+              // Make space for the sidebar on larger screens
+              "sm:ml-60"
+            }`}
+          >
+            <Header />
+            {/* Content goes here */}
+            <main>{children}</main>
           </div>
         </div>
       </body>
