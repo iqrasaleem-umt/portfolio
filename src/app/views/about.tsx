@@ -39,6 +39,8 @@ export default function About() {
             <div className='font-bold text-black'>
               <p><span className="font-bold">Website1:</span> <span className="font-light">https://agriculture-rouge.vercel.app/</span></p>
               <p><span className="font-bold">Website2:</span> <span className="font-light">https://website-omega-fawn.vercel.app/</span></p>
+              <p><span className="font-bold">Website3:</span> <span className="font-light">https://restaurant-web-pied.vercel.app/</span></p>
+              <p><span className="font-bold">Website4:</span> <span className="font-light">https://my-app-o5r8.vercel.app/</span></p>
               <p><span className="font-bold">City:</span> <span className="font-light">Lahore</span></p>
             </div>
             <div className='font-bold text-black'>
