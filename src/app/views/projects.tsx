@@ -11,7 +11,7 @@ export default function Projects() {
           {/* Image 1 */}
           <div className="relative w-full h-60">
             <Image
-              src="/pic1.png"
+              src="/pic5.jpg"
               alt="photo"
               layout="fill" // Ensures the image fills the container
               objectFit="cover" // Ensures the image covers the container without distortion
@@ -22,7 +22,7 @@ export default function Projects() {
           {/* Image 2 */}
           <div className="relative w-full h-60">
             <Image
-              src="/pic1.png"
+              src="/pic6.jpg"
               alt="photo"
               layout="fill"
               objectFit="cover"
@@ -33,7 +33,7 @@ export default function Projects() {
           {/* Image 3 */}
           <div className="relative w-full h-60">
             <Image
-              src="/pic1.png"
+              src="/pic6.jpg"
               alt="photo"
               layout="fill"
               objectFit="cover"
@@ -44,7 +44,7 @@ export default function Projects() {
           {/* Image 4 */}
           <div className="relative w-full h-60">
             <Image
-              src="/pic1.png"
+              src="/pic5.jpg"
               alt="photo"
               layout="fill"
               objectFit="cover"
@@ -55,7 +55,7 @@ export default function Projects() {
           {/* Image 5 */}
           <div className="relative w-full h-60">
             <Image
-              src="/pic1.png"
+              src="/pic5.jpg"
               alt="photo"
               layout="fill"
               objectFit="cover"
@@ -66,7 +66,7 @@ export default function Projects() {
           {/* Image 6 */}
           <div className="relative w-full h-60">
             <Image
-              src="/pic1.png"
+              src="/pic5.jpg"
               alt="photo"
               layout="fill"
               objectFit="cover"

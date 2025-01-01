@@ -38,10 +38,10 @@ export default function About() {
           <div className='flex flex-col sm:flex-row mt-10 gap-6'>
             <div className='font-bold text-black'>
               <p><span className="font-bold">Website1:</span> <span className="font-light">https://agriculture-rouge.vercel.app/</span></p>
-              <p><span className="font-bold">Website2:</span> <span className="font-light">https://website-omega-fawn.vercel.app/</span></p>
-              <p><span className="font-bold">Website3:</span> <span className="font-light">https://restaurant-web-pied.vercel.app/</span></p>
-              <p><span className="font-bold">Website4:</span> <span className="font-light">https://my-app-o5r8.vercel.app/</span></p>
-              <p><span className="font-bold">City:</span> <span className="font-light">Lahore</span></p>
+              <p><span className="font-bold mt-2">Website2:</span> <span className="font-light">https://website-omega-fawn.vercel.app/</span></p>
+              <p><span className="font-bold mt-2">Website3:</span> <span className="font-light">https://restaurant-web-pied.vercel.app/</span></p>
+              <p><span className="font-bold mt-2">Website4:</span> <span className="font-light">https://my-app-o5r8.vercel.app/</span></p>
+              <p><span className="font-bold mt-2">City:</span> <span className="font-light">Lahore</span></p>
             </div>
             <div className='font-bold text-black'>
               <p><span className="font-bold">Degree:</span> <span className="font-light">Bsc</span></p>
@@ -58,7 +58,7 @@ export default function About() {
         <div className="flex items-center space-x-2">
           <Image src={"/project.png"} height={50} width={50} alt="image" className="w-12 h-12" />
           <div>
-            <h1 className="text-xl sm:text-2xl font-bold text-black">232</h1>
+            <h1 className="text-xl sm:text-2xl font-bold text-black">20</h1>
             <p className="text-gray-600">Projects</p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function About() {
         <div className="flex items-center space-x-2">
           <Image src={"/person.png"} height={50} width={50} alt="image" className="w-12 h-12" />
           <div>
-            <h1 className="text-xl sm:text-2xl font-bold text-black">232</h1>
+            <h1 className="text-xl sm:text-2xl font-bold text-black"></h1>
             <p className="text-gray-600">24/7</p>
           </div>
         </div>
